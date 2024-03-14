@@ -89,6 +89,7 @@ form select {
     width: 15.82rem;
     height: 2.08rem;
     margin-left: 1rem;
+    background-color: white !important;
 }
 form h1 {
     font-size: 1rem;
@@ -857,6 +858,7 @@ code {
         width: 9.58rem;
         height: 1.75rem;
         font-size: var(--medium-33-font);
+        background-color: white;
     }
     
     .class-booknow {
