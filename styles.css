@@ -485,13 +485,6 @@ code {
     padding: 0rem;
 }
 
-#nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: var(--bg-white);
-    z-index: 1000;
-}
 /* Large devices CsS code Starts From here */
 @media screen and (min-width : 768px) {
     h2,h1 {
