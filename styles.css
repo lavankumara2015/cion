@@ -1,0 +1,1032 @@
+* {
+    font-family: "Source Sans 3", sans-serif;
+}
+html {
+    font-size: 4.4vw;
+}
+@media (min-width:768px) {
+    html {
+        font-size: 2.76052667vw;
+    }
+}
+:root {
+    --bg: rgba(128, 42, 143, 1);
+    --bg-white: white;
+    --colorPink: rgba(240, 208, 221, 1);
+    --small-16-font: 0.72rem;
+    --medium-33-font: 0.62rem;
+}
+button {
+    background-color: var(--bg);
+    color: var(--bg-white);
+    font-size: 1.5rem;
+    padding: 0.6rem 3.1rem;
+    border-radius: 0.4rem;
+    align-self: center;
+    border: none;
+}
+.Rs10999 {
+    font-size: 1.5rem;
+    background-color: var(--bg);
+}
+.banner-first-container {
+    background:  url("./assests/image\ 17\ \(2\).png") no-repeat 0 100%;
+    position: relative;
+    background-size: cover;
+    width: 22.72rem;
+    height: 16.5rem;
+}
+.banner-first-container>h1 {
+    font-size: 1.6rem;
+    width: 16.27rem;
+    height: 5.9rem;
+    position: relative;
+    right: 1.4rem;
+    font-weight: 800;
+    
+}
+._form_imagbannere{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+#inputFiled {
+    background-color: #F2F2F2;
+    width: 17.87rem;
+    height: 21.37rem;
+    margin: 1rem 0 0.3rem 0;
+    border-radius: 0.5rem;
+}
+
+#p-tag {
+    width: 18.04rem;
+    height: 1.78rem;
+    background-color: var(--bg);
+    color: var(--bg-white);
+    font-size: 1rem;
+    margin: 0.2rem;
+    border-radius: 0.2rem;
+    padding-left: 0.2rem;
+    position: relative;
+    right: 0.6rem;
+}
+#p-tag img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.15rem;
+}
+.btn-booknow {
+    position: relative;
+    top: 1.8rem;
+}
+form input,
+form select {
+    padding: 0.3rem;
+    margin: 0.5rem;
+    border-radius: 0.28rem;
+    border: none;
+    width: 15.82rem;
+    height: 2.08rem;
+    margin-left: 1rem;
+}
+form h1 {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0.9rem;
+    padding-top: 2.5rem;
+    font-weight: 800;
+}
+
+.main-img {
+    width: 22.72rem;
+    height: 15.7826rem;
+}
+.card h3 {
+    font-size: 0.73rem;
+    font-weight: 800;
+    padding: 0.8rem 0 0;
+    width: 7.36rem;
+    height: 2.77rem;
+    margin-left: 1.2rem;
+}
+.container-assests {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    /* padding-top: 0.8rem; */
+    margin: 1rem 0 0rem 0;
+    width: 22.72rem;
+    margin: 1rem 0 0rem 0;
+    height: 6.04rem;
+}
+.pet-ct img,
+.accordion {
+    width: 20.1818rem;
+    margin-bottom: 1rem;
+}
+#nav img {
+    padding: 0.1rem 1.1rem 0.5rem 0;
+    width: 8rem;
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+#back-pink {
+    padding: 0.5rem 0 1.3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorPink);
+}
+#a1 {
+    padding: 0.3rem 1.8rem 0.3rem 1.8rem;
+    font-size: 0.5rem;
+    font-weight: 800;
+    margin-left: 5rem;
+}
+.container-assests li {
+    list-style-type: none;
+    display: flex;
+}
+.container-assests li img {
+    width: 2.36rem;
+    height: 2.36rem;
+    margin-right: 0.5454rem;
+}
+.container-assests li p {
+    font-weight: 600;
+    font-size: 1rem;
+}
+.our-services{
+    width: 22.72rem;
+    height: 46.22rem;
+    background-color:var(--colorPink);
+}
+.card-inside {
+    font-weight: 800;
+    line-height: 0.83rem;
+    font-size: 0.73rem;
+    padding-top: 0.35rem;
+}
+#Understanding {
+    font-weight: 400;
+    font-size: 1rem;
+}
+.main-img {
+    width: 100%;
+    height: 40vh;
+}
+.Free-now {
+    width: 22.72rem;
+    height: 5.9rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 7.74rem;
+    width: 10.44rem;
+    border-radius: 3.5%;
+    background-color: var(--bg-white);
+}
+h5 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+h2 {
+    font-size: 1rem;
+}
+.testimonial-card p,span {
+    font-size: var(--small-16-font);
+    font-weight: 600;
+}
+.accordion-button {
+    font-weight: 600;
+    font-size: 1rem;
+}
+.accordion-body {
+    font-size: var(--small-16-font);
+    font-weight: 400;
+    background-color: white !important;
+}
+.card-1 h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 0.15rem;
+}
+.guideline-card img {
+    width: 4.68rem;
+    height: 4.68rem;
+}
+.card-1 {
+    text-align: center;
+    border-radius: 1rem;
+    width: 9.95rem;
+    height: 9.636rem;
+}
+.banner_form_image_section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    align-items: center;
+   background-color: transparent;
+    background-size: cover;
+    /* padding: 2rem;
+    position: relative;
+    top: 0.8rem; */
+}
+.container-types {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.8rem;
+    column-gap: 0.2rem;
+    row-gap: 0.2rem;
+    padding-bottom: 2rem;
+}
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.1rem;
+    gap: 20px;
+}
+.guideline-card h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+}
+.guideline-card:last-child {
+    margin-right: 0;
+}
+#ul-li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--bg);
+    height: 5.41rem;
+    padding-top: 0.8rem
+}
+#ul-li li {
+    list-style-type: none;
+    width: 8.85rem;
+    height: 1.96rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#ul-li li img {
+    width: 1.37rem;
+    height: 1.37rem;
+    margin-right: 0.46rem;
+    position: relative;
+    bottom: 0.3rem;
+}
+#ul-li h6 {
+    color: var(--bg-white);
+    font-size: 1rem;
+    font-weight: 600;
+}
+#ul {
+    margin-bottom: 2rem;
+}
+.pet-ct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: var(--small-16-font);
+    font-weight: 600;
+}
+.rating {
+    margin-left: 5rem;
+}
+.Free-now img {
+    width: 3.95rem;
+    height: 4.18rem;
+    margin-left: 1rem;
+}
+.carousel-main {
+    padding: 1rem;
+}
+.py-5 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+    border-radius: 0.2rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1.2rem;
+    column-gap: 0.6rem;
+    row-gap: 0.6rem;
+    /* background-color: var(--colorPink); */
+}
+.card button {
+    padding: 0.2rem 1.2rem;
+    font-size: var(--small-16-font);
+    position: relative;
+    bottom: 0.7rem;
+}
+.guidelines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    
+}
+button {
+    font-size: 0.73rem;
+    padding: 0.2rem 2rem;
+    border-radius: 0.2rem;
+    align-self: center;
+    border: none;
+    
+}
+.accordion-header button {
+    font-size: 1rem;
+}
+.pipe-jubile ,.pipe-Panjagutta{
+    color: var(--bg-white);
+    position: relative;
+    left: 1.8rem;
+    padding-top: 0.5rem;
+    
+}
+.pipe-Panjagutta{
+    color: var(--bg-white);
+    position: relative;
+    left: 2.35rem;
+    padding-top: 0.5rem;
+    
+}
+.pipe-Narayanaguda{
+   display: none;
+}
+.text-center {
+    text-align: center !important;
+    font-size: 1rem !important;
+}
+.container-scan-fee {
+    background-color: rgb(240, 208, 221);
+    width: 100%;
+}
+.Free-now {
+    background-image: linear-gradient(to right, #802A8F, #D37FA0);
+    display: flex;
+    align-items: center;
+}
+.Free-now h3 {
+    color: var(--bg-white);
+    max-width: 450px;
+}
+.main-Free {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    flex-grow: 1;
+    padding: 0.8rem;
+}
+.main-Free button {
+    background-color: var(--bg-white);
+    color: var(--bg);
+    font-weight: 600;
+    padding: 0rem;
+    align-self: flex-start !important;
+    border-radius: 0.1rem;
+    height: 1.36rem;
+    width: 7rem;
+    font-size: 0.72rem;
+    justify-content: center;
+    display: flex;
+    align-items: self-end;
+    
+}
+.main-Free>button>span {
+    width: 5.91rem;
+    height: 1.1rem;
+    position: relative;
+    right: 1.8rem;
+    font-size: var(--small-16-font);
+}
+.guideline-card {
+    background-color: var(--bg-white);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 18.5rem;
+    height: 14.644rem;
+    padding: 1.7rem;
+    border-radius: 0.2rem;
+    background: var(--bg-white);
+    line-height: 2.5;
+}
+.card-1 {
+    border: 1px solid #ccc;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--bg-white);
+    border-radius: 4%;
+}
+.card-1 img {
+    width: 4.4rem;
+    height: 4.4rem;
+    margin-top: 1.1rem;
+}
+.align-self-stretch {
+    align-self: stretch !important;
+    padding-left: 1.3rem;
+}
+.faq-inner-container .accordion-button {
+    background-color: white !important;
+    font-size: 1rem;
+}
+h2 {
+    font-size: 1rem;
+    font-weight: 800;
+}
+.accordion-body {
+    background-color: white;
+}
+code {
+    font-size: 0.43rem;
+    color: black;
+    word-wrap: break-word;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+}
+.accordion-button::after  {
+    background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png");
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png);
+    width: 0.7rem;
+    position: relative;
+    right: 0.3rem;
+}
+.class-booknow {
+    position: relative;
+    left: 5rem;
+    top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.07rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    padding: 0rem;
+}
+
+
+/* Large devices CsS code Starts From here */
+@media screen and (min-width : 768px) {
+    h2,h1 {
+        font-weight: 800;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    #nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: var(--bg-white);
+        z-index: 1000;
+    }
+    #nav>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 36.23rem;
+        height: 2.63rem;
+    }
+    #nav img {
+        width: 4.44rem;
+        height: 1.60rem;
+        padding: 0;
+        position: relative;
+    bottom: 0.4rem;
+    }
+    #a1 {
+        text-decoration: none;
+    border-radius: 0.1rem;
+    position: relative;
+    right: 2rem;
+    width: 3.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.2rem;
+    font-size: 0.49rem;
+    padding: 0;
+    }
+    .Rs10999 {
+        background-color: var(--bg);
+        font-weight: 500;
+    }
+    #p-tag {
+        height: 1.81rem;
+        font-size: 1rem;
+        border-radius: 0.2rem;
+        position: relative;
+        left: 0.01rem;
+        top: 1rem;
+        padding-left: 0.35rem;
+    }
+   
+    .main-img {
+        width: 100%;
+    }
+    .banner_form_image_section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+   
+    .card {
+        width: 9.03rem !important;
+        height: 6.7rem;
+        border-radius: 0.2rem
+    }
+    .container-assests {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        position: relative;
+        top: 0.8rem;
+        right: 1.6rem;
+        padding-top: 0;    
+        width: 35.54rem;
+        margin: 1rem 0 0rem 0.9rem;
+        height: 3.32rem;
+    }
+    .container-assests li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+   
+    #Understanding {
+        font-weight: 800;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .Free-now>div>img {
+        width: 2.93rem;
+        height: 2.93rem;
+    }
+    .container-assests li p {
+        margin-left: 0.28rem;
+        font-weight: 600;
+        font-size: var(--medium-33-font);
+        width: 4.75rem;
+        height: 1.19rem;
+        margin-top :0.3rem;
+    }
+    .container-assests img {
+        width: 1.3rem;
+        height: 1.3rem;
+
+    }
+    .container-types {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .Free-now {
+        background-image: linear-gradient(to right, #802A8F, #D37FA0);
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .Free-now h3 {
+        color: var(--bg-white);
+        max-width: 450px;
+    }
+    .main-Free {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* align-items: center; */
+        flex-grow: 1;
+        padding: 0.8rem;
+    }
+    .main-Free button {
+        background-color: var(--bg-white);
+        color: var(--bg);
+        font-weight: 800;
+        padding: 0rem;
+        width: 8.9rem;
+        height: 2.1rem;
+        font-size: 0.62rem;
+        position: relative;
+        top: 0.6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .main-Free>button>span {
+     margin-left: 2.65rem;
+
+}
+.accordion-button::not(.collapsed)::before  {
+/* background-image: url('https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180'); */
+     background-image: url("https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png"); 
+}
+.accordion-button:not(.collapsed)::before {
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.olprDojCA6ATaPKWOyB3UgHaHa&pid=Api&P=0&h=180');
+}
+    .testimonials-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem;
+        gap: 50px;
+    }
+    .pet-ct .accordion-button:not(.collapsed) {
+        background-color: var(--colorPink) !important;
+        padding: 0.2rem 1rem;
+    }
+    .testimonial-card {
+        display: flex;
+        gap: 0.3rem;
+    width: 33.48rem;
+    height: 10.31rem;
+    padding-left: 1.2rem;
+    position: relative;
+    bottom: 1.3rem;
+    margin-left: 1.3rem;
+    }
+   
+    #ul-li li img {
+        position: relative;
+        bottom: 0.25rem;
+    }
+    section {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        background:  url("./assests/image\ 17\ \(2\).png") no-repeat 0 100%;
+        background-size: cover;
+        padding: 2rem;
+        position: relative;
+        top: 0.8rem;
+    }
+    .testimonial-single-card {
+        width: 15.48rem;
+        height: 10.31rem;
+        border-radius: 0.2rem;
+        margin-bottom: 2.3rem;
+    }
+    .carousel-control-next-icon {
+        position: relative;
+        bottom: 1.7rem;
+        left: 1.2rem;
+    }
+    .carousel-control-prev-icon {
+        position: relative;
+        bottom: 1.7rem;
+        right: 0.8rem;
+    }
+    .h2-Importance{
+        position: relative;
+        bottom: 0.35rem;
+    }
+    .testimonial-single-card>span {
+        padding-left: 1.1rem;
+        font-size: 0.62rem;
+       
+    }
+    
+    .testimonial-card p {
+        width: 15.48rem;
+        font-size: 0.63rem;
+        font-weight: 500;
+        padding: 0.8rem 0.5rem 0.2rem 1.2rem;
+    }
+    .testimonial-card hr {
+        margin: 10px 0 !important;
+        position: relative !important;
+        top: 0rem !important;
+        border-top: 1px solid #6c6c6c !important;
+    }
+    
+    .pet-ct img {
+        width: 14.5rem;
+        height: 14.9rem;
+    }
+    
+.pet-ct .accordion {
+    width: 16.71rem;
+    margin-bottom: 1rem;
+}
+    .guidelines {
+        display: flex;
+        flex-direction: row;
+        grid-gap: 0.5rem;
+        align-items: center;
+    }
+    .guideline-card {
+        width: 10.39rem;
+        height: 8.23rem;
+    }
+    .guideline-card img {
+        width: 2.63rem;
+        height: 2.63rem;
+        position: relative;
+        bottom: 0.4rem;
+    }
+    .guideline-card h5 {
+        font-size: var(--medium-33-font);
+        padding-top: 0.3rem;
+    }
+    #ul-li {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 0rem;
+    }
+    #ul-li img {
+        width: 1.13rem;
+        height: 1.13rem;
+    }
+    #ul-li hr {
+        color: var(--bg-white);
+        border: 5px solid var(--bg-white);
+    }
+    .pipe-jubile ,.pipe-Panjagutta{
+        color: var(--bg-white);
+        position: relative;
+        left: 1rem;
+        padding-top: 0.5rem;
+        
+    }
+    .pipe-Narayanaguda{
+        display: inline;
+        color: var(--bg-white);
+        position: relative;
+        left: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        right: 1rem;
+    }
+    #carousel-hr{
+        border: 0.01rem solid black !important;
+    }
+    .pet-ct {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1.2rem;
+        gap: 1.2rem;
+    }
+    .accordion-body {
+        background-color: rgba(240, 208, 221, 1);
+        font-size: 0.45rem;
+        font-weight: 400;
+        background-color: var(--colorPink);
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 0rem;
+        row-gap: 0.8rem;
+        position: relative;
+        left: 0.5rem;
+        bottom: 0.7rem;
+    }
+    .card-1 {
+        width: 7.64rem;
+        height: 7.39rem;
+    }
+    .card {
+        width: 9.02rem;
+        height: 6.70rem;
+    }
+    .card-1 img {
+        width: 3.38rem;
+        height: 3.38rem;
+    }
+    .our-services {
+        width: 100%;
+        height: 20.50rem;
+        background-color: rgba(240, 208, 221, 1);
+    }
+    #inputFiled {
+        background-color: #F2F2F2;
+        width: 11.3rem;
+        height: 12.98rem;
+        border-radius: 0.2rem;
+        margin: 0rem;
+        position: relative;
+        top: 1rem;
+        left: 1.5rem;
+    }
+   
+    .card button {
+        position: relative;
+        bottom: 0.5rem;
+    }
+    form input,form select {
+        padding: 0.5rem;
+        margin: 0.2rem;
+        border-radius: 0.1rem;
+        border: none;
+        margin-left: 8%;
+        position: relative;
+        bottom: 1.8rem;
+        width: 9.58rem;
+        height: 1.75rem;
+        font-size: var(--medium-33-font);
+    }
+    
+    .class-booknow {
+        position: relative;
+        bottom: 1.2rem;
+        width: 4.92rem;
+        left: 3.2rem;
+        font-size: 0.62rem;
+        top: auto;
+         height: 1.07547rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: 0;
+    }
+    .card h3 {
+        font-size: var(--medium-33-font);
+        font-weight: 800;
+        width: 5.94rem;
+        height: 1.54rem;
+        margin-left: 1.5rem;
+    }
+    form h1 {
+        font-size: 1rem;
+        position: relative;
+        bottom: 1.5rem;
+    }
+    .banner-first-container {
+        width: 18.26rem;
+    }
+    .banner-first-container>h1 {
+        font-size: 1.60rem;
+        width: 18.15rem;
+        height: 4.74rem;
+        font-weight: 600;
+        position: relative;
+    left: 0.1rem;
+    }
+    #back-pink {
+      background-color:transparent ;
+        padding: 0.5rem 0 1.3rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .banner-first-container{
+        background-image: none;
+    }
+    .card-1 h4 {
+        font-size: var(--medium-33-font);
+        font-weight: 600;
+        padding-top: 0.3rem;
+    }
+    #carouselExampleAutoplaying {
+        width: 32.90rem;
+        height: 10.30rem;
+    }
+    .accordion-main-container {
+        width: 30.509434rem;
+        height: 10.9807rem;
+        padding: 1rem;
+    }
+    .carousel-main {
+        width: 33.47rem;
+    }
+   .a{
+    display: flex;
+    width: 30.50rem;
+    height: 10.98rem;
+    margin-left: 3.33rem !important;
+    gap: .3rem;
+   }
+   .accordion-button:not(.collapsed) {
+    /* color: var(--bg); */
+    background-color:#fff;
+}
+.accordion-header button {
+    font-size: 0.6rem !important; 
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button{
+    background-color: var(--colorPink);
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+    background-color: white;
+    font-weight: 600 !important;
+   
+    border-radius: 0rem 0rem;
+}
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+    border-radius: 0rem;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png);
+    width: 0.7rem;
+    position: relative;
+    right: 0.5rem;
+}
+ .pet-ct .accordion-body ,.accordion-button:not(.collapsed){
+    background-color: var(--colorPink) !important;
+    color: black !important;
+ }
+ .pet-ct .accordion-body{
+    font-size: 0.46rem !important;
+ }
+ .md-device-carousel{
+    display: inline !important;
+}
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    display: flex;
+    position: relative;
+    left: 1.2rem;
+}
+.carousel-item p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: var(--medium-33-font);
+    font-weight: 600;
+    padding: 1rem 0 0 1.25rem;
+}
+.carousel-main {
+    padding: 0.5rem;
+}
+
+}
+
+
+
+.md-device-carousel{
+    display: none;
+}
+.pet-ct .accordion-body{
+    background-color: var(--colorPink) !important;
+    /* font-size: 0.72rem !important ; */
+
+ }
+ .pet-ct .accordion-body {
+    background-color: var(--colorPink) !important;
+    color: black !important;
+    padding: 1rem !important;
+ }
+ .pet-ct .accordion-button:not(.collapsed){
+    background-color: var(--colorPink) !important ;
+ }
+ .accordion-button:not(.collapsed){
+    background-color: white !important ;
+ }
+ 
+*{
+    border: none !important;
+}
+.a{
+    margin-left: 1.47rem;
+}
+.accordion-button:not(.collapsed) {
+
+    color: var(--bg) !important;
+}
+.accordion-header button {
+    font-size: 1rem;
+}
+.faqs{
+    font-weight: 800;
+    font-size: 1rem;
+    margin-top: 1rem;
+}  
+#carousel-hr{
+    border: 0.01rem solid black !important;
+}
