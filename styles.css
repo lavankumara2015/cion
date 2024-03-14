@@ -803,6 +803,7 @@ code {
         background-color: rgba(240, 208, 221, 1);
         font-size: 0.45rem;
         font-weight: 400;
+        padding: 0.1rem;
         background-color: var(--colorPink);
     }
     .grid-container {
@@ -929,7 +930,7 @@ code {
     display: flex;
     width: 30.50rem;
     height: 10.98rem;
-    margin-left: 3.33rem !important;
+    margin-left: 3rem !important;
     gap: .3rem;
    }
    .accordion-button:not(.collapsed) {
@@ -946,7 +947,7 @@ code {
 .accordion-item:first-of-type>.accordion-header .accordion-button {
     background-color: white;
     font-weight: 600 !important;
-   
+    border-bottom: 1px solid rgb(130, 128, 128) !important;
     border-radius: 0rem 0rem;
 }
 .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
@@ -986,8 +987,18 @@ code {
     padding: 0.5rem;
 }
 
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    border-radius: 0;
+    border-bottom: 1px solid #8f8e8b !important;
+    padding: 0rem 0rem 0.3rem 0rem;
 }
 
+}
+.accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    border-radius: 0;
+    border-bottom: 1px solid #8f8e8b !important;
+    
+}
 
 
 .md-device-carousel{
